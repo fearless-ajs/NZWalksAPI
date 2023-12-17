@@ -13,12 +13,52 @@ namespace NZWalksAPI.Repositories
             return walk;
         }
 
-        public async Task<List<Walk>> GetAllAsync()
-        {
-            return await dbContext.Walks
+        public async Task<List<Walk>> GetAllAsync(
+            string? filterOn = null,
+            string? filterQuery = null,
+            string? sortBy = null,
+            bool isAscending = false,
+            int pageNumber = 1,
+            int pageSize = 1000
+        ) {
+            var walks = dbContext.Walks
                 .Include("Difficulty")
                 .Include("Region")
-                .ToListAsync();
+                .AsQueryable();
+            
+            // Filtering
+            if (string.IsNullOrWhiteSpace(filterOn) == false && string.IsNullOrWhiteSpace(filterQuery) == false)
+            {
+                // Filter by Name column
+                if (filterOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = walks.Where(x => x.Name.Contains(filterQuery));
+                }
+            }
+
+            // Sorting 
+            if (string.IsNullOrWhiteSpace(sortBy) == false)
+            {
+                // Sort by Name column
+                if (sortBy.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = isAscending ? walks.OrderBy(x => x.Name) : walks.OrderByDescending(x => x.Name);
+                        
+                    // Sort by LengthInKm column
+                }else if (sortBy.Equals("Length", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = isAscending ? walks.OrderBy(x => x.LengthInKm) : walks.OrderByDescending(x => x.LengthInKm);
+                }
+            }
+            
+            // Pagination
+            var skipResults = (pageNumber - 1) * pageSize;
+            
+            return await walks.Skip(skipResults).Take(pageSize).ToListAsync();
+            // return await dbContext.Walks
+            //     .Include("Difficulty")
+            //     .Include("Region")
+            //     .ToListAsync();
         }
 
         public async Task<Walk?> GetByIdAsync(Guid id)

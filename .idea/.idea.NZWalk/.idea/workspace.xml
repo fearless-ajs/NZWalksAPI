@@ -10,178 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e833ea65-f8e5-4682-a9a2-9e54930ea3da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.NZWalk/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.NZWalk/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.NZWalk/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.NZWalk/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.NZWalk/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.NZWalk/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalk.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Controllers/RegionsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Controllers/WalksController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/CustomActionFilters/ValidateModelAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Data/NzWalksDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Mappings/AutoMapperProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Migrations/20231215144237_InitialMigration.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Migrations/20231215144237_InitialMigration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Migrations/20231216230045_SeddingDataForDifficultiesAndRegions.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Migrations/20231216230045_SeddingDataForDifficultiesAndRegions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Migrations/NzWalksDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Models/DTO/AddRegionRequestDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Models/DTO/AddWalkRequestDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Models/DTO/DifficultyDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Models/DTO/RegionDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Models/DTO/UpdateRegionRequestDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Models/DTO/UpdateWalkRequestDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Models/DTO/WalkDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Repositories/IRegionRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Repositories/IWalkRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Repositories/SqlRegionRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/Repositories/SqlWalkRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/AutoMapper.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Azure.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Azure.Identity.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Humanizer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.Identity.Client.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/Mono.TextTemplating.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.CodeDom.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.Composition.AttributedModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.Composition.Convention.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.Composition.Hosting.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.Composition.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.Composition.TypedParts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.Memory.Data.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.Runtime.Caching.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.Security.Permissions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/obj/NZWalksAPI.csproj.EntityFrameworkCore.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NZWalksAPI/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/Models/Domain/Difficulty.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/Models/Domain/Difficulty.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/Models/Domain/Region.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/Models/Domain/Region.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/Models/Domain/Walk.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/Models/Domain/Walk.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/NZWalksAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/NZWalksAPI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/NZWalksAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/NZWalksAPI.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NZWalk/.idea/dataSources/2eb36ab3-aa26-44c8-a812-227b1db4a433.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NZWalk/.idea/dataSources/2eb36ab3-aa26-44c8-a812-227b1db4a433.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NZWalk/.idea/dataSources/2eb36ab3-aa26-44c8-a812-227b1db4a433/storage_v2/_src_/database/NZWalksDB.XBbsVw/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NZWalk/.idea/dataSources/2eb36ab3-aa26-44c8-a812-227b1db4a433/storage_v2/_src_/database/NZWalksDB.XBbsVw/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NZWalk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NZWalk/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NZWalksAPI/Controllers/WalksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/Controllers/WalksController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NZWalksAPI/Repositories/IWalkRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/Repositories/IWalkRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NZWalksAPI/Repositories/SqlWalkRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/Repositories/SqlWalkRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/NZWalksAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/NZWalksAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/NZWalksAPI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/NZWalksAPI.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/NZWalksAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/NZWalksAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/NZWalksAPI.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/NZWalksAPI.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/bin/Debug/net8.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/NZWalksAPI.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/ref/NZWalksAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/ref/NZWalksAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/refint/NZWalksAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/Debug/net8.0/refint/NZWalksAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/NZWalksAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/NZWalksAPI.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/NZWalksAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/NZWalksAPI.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NZWalksAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NZWalksAPI/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +141,7 @@
       <workItem from="1702649997887" duration="977000" />
       <workItem from="1702651151956" duration="3345000" />
       <workItem from="1702679455979" duration="184000" />
-      <workItem from="1702679691682" duration="31343000" />
+      <workItem from="1702679691682" duration="35447000" />
     </task>
     <servers />
   </component>
