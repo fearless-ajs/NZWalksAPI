@@ -169,3 +169,5 @@ C:\Users\Adurotimi Steven\Documents\Companies\AJS\NZWalksAPI\NZWalksAPI\obj\Debu
 C:\Users\Adurotimi Steven\Documents\Companies\AJS\NZWalksAPI\NZWalksAPI\obj\Debug\net8.0\ref\NZWalksAPI.dll
 C:\Users\Adurotimi Steven\Documents\Companies\AJS\NZWalksAPI\NZWalksAPI\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Adurotimi Steven\Documents\Companies\AJS\NZWalksAPI\NZWalksAPI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Adurotimi Steven\Documents\Companies\AJS\NZWalksAPI\NZWalksAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Adurotimi Steven\Documents\Companies\AJS\NZWalksAPI\NZWalksAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

@@ -5,9 +5,8 @@ namespace NZWalksAPI.Data;
 
 public class NzWalksDbContext: DbContext
 {
-    public NzWalksDbContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
+    public NzWalksDbContext(DbContextOptions<NzWalksDbContext> dbContextOptions) : base(dbContextOptions)
     {
-        
     }
     
     // Create properties based on the available entities
